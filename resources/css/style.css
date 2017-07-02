@@ -1,0 +1,48 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container {
+  width: 960px;
+}
+
+.shop {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.shop img {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+.nav {
+  margin-right: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav span {
+  margin: 1rem 1rem;
+}
+
+header {
+  margin-top: 1rem;
+  background-color: cadetblue;
+  font-size: 1rem;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
