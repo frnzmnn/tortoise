@@ -147,10 +147,19 @@ header a {
   margin-right: 1rem;
 }
 
+@media only screen and (min-width: 1024px) {
+  #mobile {display: none;}
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 270px){
+  #mobile {display: none;}
   .container {width: 100%; margin: 0rem 0rem;}
   .intro {padding-top: 0rem;}
   header {margin-top: 0rem;}
   .banner {margin-top: 5rem; margin-right: 2rem;}
   .banner h2 {font-size: 1.33rem; padding: 0.75rem 4rem 0.75rem 4rem;}
+}
+
+@media only screen and (max-width: 270px) {
+  .nav span {display: none;}
 }
