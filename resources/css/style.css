@@ -14,7 +14,6 @@ body {
   background-position: center;
   padding-top: 1rem;
   height: 30rem;
-  margin-top: -1rem;
 }
 
 .flex-container {
@@ -86,17 +85,20 @@ header a {
 }
 
 .item {
-  margin: 3rem 3rem;
+  margin: 3rem;
   width: 5rem;
+  height: 8rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
 
 }
 
 .item img {
   display: block;
-  width: 70%;
+  width: 3.5rem;
   height: auto;
 }
 
@@ -104,8 +106,6 @@ header a {
   padding-top: 1rem;
   display: block;
   text-align: center;
-  align-items: flex-end;
-  justify-content: flex-end;
 }
 
 .details {
@@ -115,7 +115,8 @@ header a {
 
 .button {
   width: 35%;
-  margin: 1rem 5%;
+  height: 2rem;
+  margin: 1rem 5% 5rem 5%;
 }
 
 .button h5 {
@@ -137,10 +138,17 @@ header a {
   align-items: center;
   background-color: azure;
   padding: 4rem;
+  margin-top: 5rem;
 }
 
 .footer img {
   height: 1.5rem;
   margin-left: 4rem;
   margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {width: 100%; margin: 0rem 0rem;}
+  .intro {padding-top: 0rem;}
+  header {margin-top: 0rem;}
 }
