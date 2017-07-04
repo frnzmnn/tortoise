@@ -63,7 +63,7 @@ header a {
 
 .banner {
   background-color: white;
-  width: 40%;
+  width: 42%;
   margin-top: 10rem;
   margin-right: 15%;
   margin-left: 45%;
@@ -89,7 +89,6 @@ header a {
   margin: 3rem 3rem;
   width: 5rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 
