@@ -177,10 +177,12 @@ header a {
   .banner {margin: 9rem 0rem 0rem 0rem; width: 100%; text-align: center;}
   .banner h2 {font-size: 1rem; padding: 1rem;}
   .intro {padding-top: 0rem; background-position: 20%; height: 17rem;}
-  .icons {margin-top: 3.77rem; flex-wrap: wrap; width: 60%; justify-content: space-around;}
-  .item {margin-top: 1.54rem; justify-content: space-around; align-items: center;}
-  .item span {font-size: 0.77rem;}
-  .details {margin-top: 3.77rem; width: 100%}
-  .button {width: 100%; margin-bottom: 1rem;}
 
+  .icons {margin-top: 3.77rem; display: block; width: 100%;}
+  .item {margin-top: 1.54rem; width: 70%; height: 6rem;}
+  .item img {justify-content: center; height: 3rem; width: auto;}
+  .item span {text-align: center; font-size: 0.77rem; justify-content: center;padding-top: -1rem;}
+  .details {margin-top: 13rem; width: 100%;}
+  .button {width: 100%; justify-content: center; margin: 8rem 0rem 3rem 0rem;}
+  .button h5 {width: 100%; text-align: center;}
 }
